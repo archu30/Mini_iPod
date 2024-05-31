@@ -306,6 +306,7 @@ class App extends React.Component {
             wallpaper, wallpaperItems, noty, notifyText } = this.state;
         return (
             <div className="App">
+
                 <Case songIndex={songIndex} active={active} menuItems={menuItems} currentMenu={currentMenu} audio={audio} musicItems={musicItems} songItems={songItems}
                     playing={playing} theme={theme} songUrl={songUrl} songImgUrl={songImgUrl} wheelColor={wheelColor} wallpaper={wallpaper} wallpaperItems={wallpaperItems}
                     noty={noty} notifyText={notifyText} changeMenuForward={this.changeMenuForward} changeMenuBackward={this.changeMenuBackward} updateActiveMenu={this.updateActiveMenu}
