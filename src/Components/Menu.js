@@ -13,15 +13,15 @@ class Menu extends React.Component {
                     <ul>
                         {
                             menuItems.map((element, index) => {
-                                return active === index ? <li key={index}>&nbsb; {element}</li> : <li key={index}>&nbsb; {element}</li>
+                                return active === index ? <li key={index} className="active">&nbsp; {element}</li> : <li key={index}>&nbsp; {element}</li>
                             })
                         }
                     </ul>
                 </div>
                 <div className='leaf'>
                     {active === 0 && <img src={songImgUrl} alt="" className='leaf-img' />}
-                    {active === 2 && <img src={Music} alt="" className='leaf-img' />}
-                    {active === 1 && <img src={Game} alt="" className='leaf-img' />}
+                    {active === 1 && <img src={Music} alt="" className='leaf-img' />}
+                    {active === 2 && <img src={Game} alt="" className='leaf-img' />}
                     {active === 3 && <img src={Setting} alt="" className='leaf-img' />}
                 </div>
             </div>

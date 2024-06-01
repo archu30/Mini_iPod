@@ -2,7 +2,7 @@
     position: relative;
     width: 200px;
     height: 200px;
-    margin-top: auto;
+    margin-top: 20px;
     display: flex;
 }
 
@@ -21,6 +21,7 @@
     position: absolute;
 }
 #menu{
+    position: absolute;
     left: 38%;
     top: 11%;
     font-weight: 900;
@@ -29,6 +30,7 @@
     height: 20px;
 }
 #play-pause{
+    position: absolute;
     left: 42%;
     bottom: 11%;
     font-weight: 900;
@@ -38,11 +40,13 @@
 }
 
 #reverse{
+    position: absolute;
     left: 10%;
     top: 45%;
     font-size: 23px;
 }
 #forward{
+    position: absolute;
     right: 10%;
     top: 45%;
     font-size: 23px;
@@ -56,4 +60,5 @@
     position: absolute;
     left: 31%;
     top: 30%;
+    cursor: pointer;
 }

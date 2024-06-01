@@ -34,7 +34,7 @@ class Display extends React.Component {
 
                 {currentMenu === 8 && <Theme active={active} />}
                 {currentMenu === 9 && <WheelColor active={active} />}
-                {currentMenu === 8 && <Wallpaper active={active} />}
+                {currentMenu === 10 && <Wallpaper active={active} />}
 
 
             </div>
